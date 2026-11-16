@@ -17,7 +17,7 @@ The project also investigates which features contribute most to the model's pred
 
 ## 2. Dataset
 
-The dataset contains 8,000 observations and 18 variables.
+The dataset contains 8,000 observations and 18 variables. (Kaggle: https://www.kaggle.com/datasets/samartalwar/caffeine-crash-and-jitters-energy-drinks-and-anxiety?resource=download)
 
 Eleven input features are selected, including age, caffeine intake, sleep duration, CYP1A2 metabolizer type, caffeine tolerance, and other individual characteristics.
 
@@ -47,14 +47,15 @@ Permutation feature importance is used to interpret model predictions.
 ## 4. Project Structure
 
 ```text
-caffeine-crash-prediction/
+mlzoomcamp2026-midterm/
+├── data/
+    └── caffeine_crash_and_anxiety_telemetry.csv
 ├── notebook.ipynb
 ├── train.py
 ├── predict.py
 ├── requirements.txt
 ├── Dockerfile
 ├── README.md
-├── caffeine_crash_and_anxiety_telemetry.csv
 └── model/
     └── model.pkl
 ```
